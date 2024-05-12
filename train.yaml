@@ -1,0 +1,26 @@
+dim: 64
+hrv_crop: 16
+weather_crop: 8
+pv_features_file: "2024-03-29_pv_features_dict.pkl"
+num_pv_features: 3
+pv_latent: true
+init_std: 0.03
+lr: 0.0005
+num_latents: 6
+num_layers: 20
+wd: 0.001
+bias: false
+
+seed: 87
+epochs: 15
+batch_size: 64
+offset_start_time: true
+
+data_path: "/workspaces/waterloo-climatehack/data"
+results_path: "/workspaces/waterloo-climatehack/data"
+zipped: true
+
+test_size: 0.02
+modalities: ["pv", "metadata", "weather", "hrv"]
+start_date: 2021-10-01T00:00:00
+end_date: 2021-11-30T00:00:00
