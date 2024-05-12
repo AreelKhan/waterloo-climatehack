@@ -1,7 +1,7 @@
 dim: 64
 hrv_crop: 16
 weather_crop: 8
-pv_features_file: "2024-03-29_pv_features_dict.pkl"
+pv_features_file: "pv_site_features.pkl"
 num_pv_features: 3
 pv_latent: true
 init_std: 0.03
