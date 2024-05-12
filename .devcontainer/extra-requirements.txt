@@ -1,0 +1,29 @@
+# Essential
+doxa-cli
+more-itertools
+polars
+pvlib
+
+# Data loading
+dask 
+fsspec
+gcsfs
+xarray
+zarr 
+ocf-blosc2
+geopy
+ 
+# Deep learning
+datasets
+torchinfo
+optuna
+
+# Jupyter
+ipykernel
+ipywidgets
+jupyter
+
+# Plotting
+cartopy
+matplotlib
+seaborn

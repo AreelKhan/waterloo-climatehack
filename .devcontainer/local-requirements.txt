@@ -1,0 +1,56 @@
+# DOXA
+--extra-index-url https://download.pytorch.org/whl/cu121
+fastai
+fsspec
+kornia
+numba
+numpy
+pandas
+pytorch-lightning
+pytorch-msssim
+scikit-learn
+timm
+torch
+torchaudio
+torchmetrics
+torchvision
+transformers
+dask
+
+# Essential
+doxa-cli
+more-itertools
+pvlib
+
+# Data loading
+fsspec
+gcsfs
+xarray
+zarr 
+ocf-blosc2
+ 
+# Deep learning
+datasets
+torchinfo
+optuna
+
+# Jupyter
+ipykernel
+ipywidgets
+jupyter
+
+# Plotting
+matplotlib
+seaborn
+imageio
+
+# Data munging
+#cartopy # installed with conda
+pyproj
+geopy
+
+# Monitoring
+wandb
+ipdb
+
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
