@@ -372,6 +372,7 @@ def get_datasets(
     datatypes = "_".join([k for k in features.keys() if k in ["hrv", "nonhrv", "weather", "aerosols"]])
     checkpoint_name = f"{d0}_to_{d1}_{datatypes}_checkpoint.pkl"
     checkpoint_path = os.path.join(data_dir, "data_checking", checkpoint_name)
+    os.makedirs(os.path.join(data_dir, "data_checking"), exist_ok=True)
     if os.path.isfile(checkpoint_path):
         print("Loading dataset checking checkpoint")
         with open(checkpoint_path, "rb") as f:
