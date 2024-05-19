@@ -1,3 +1,5 @@
+run_name: "waterloo perceiver"
+
 dim: 64
 hrv_crop: 16
 weather_crop: 8
