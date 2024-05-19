@@ -10,11 +10,12 @@ num_latents: 6
 num_layers: 20
 wd: 0.001
 bias: false
+offset_start_time: true
 
 seed: 87
 epochs: 15
 batch_size: 64
-offset_start_time: true
+num_workers: 5
 
 data_path: "/workspaces/waterloo-climatehack/data"
 results_path: "/workspaces/waterloo-climatehack/data"
